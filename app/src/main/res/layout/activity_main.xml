@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- TextView para mostrar el resultado de las operaciones. -->
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="#3F51B5"
+        android:textSize="60sp" />
+
+    <!-- EditText para ingresar el primer número. -->
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escribe un número"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:textSize="24sp" />
+
+    <!-- EditText para ingresar el segundo número. -->
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escribe un número"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:textSize="24sp" />
+
+    <!-- Botón para realizar la operación de suma. -->
+    <Button
+        android:id="@+id/boton_suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Suma"
+        android:textColorLink="#3F51B5" />
+
+    <!-- Botón para realizar la operación de resta. -->
+    <Button
+        android:id="@+id/boton_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Resta" />
+
+    <!-- Botón para realizar la operación de multiplicación. -->
+    <Button
+        android:id="@+id/boton_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Multiplicación" />
+
+    <!-- Botón para realizar la operación de división. -->
+    <Button
+        android:id="@+id/boton_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="División" />
+
+    <!-- Botón para realizar la operación de potenciación. -->
+    <Button
+        android:id="@+id/boton_potencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Potencia" />
+
+</LinearLayout>
